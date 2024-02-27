@@ -1,0 +1,134 @@
+@media screen and (max-width: 1024px) {
+  .wrapper .product .container .list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .wrapper .product .container .list .item {
+    margin: auto;
+  }
+  .banner-slider .second {
+    justify-content: flex-start;
+  }
+  .menu .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navigation-btn {
+    display: block;
+  }
+  .navigation {
+    transform: translateX(100%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3246fe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 200px;
+    z-index: 50;
+    width: 260px;
+  }
+  .wrapper .product .container .list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .navigation li a {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    font-weight: 600;
+  }
+  .navigation li a:hover {
+    color: white;
+    background-color: #e8aa42;
+  }
+  .navigation-close i {
+    display: block;
+  }
+  .menu .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .contact .box .map {
+    max-width: 426px;
+    width: 100%;
+  }
+  .contact .box .content {
+    max-width: 426px;
+    width: 100%;
+  }
+  .footer .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .footer .box .cart {
+    padding: 0 70px;
+  }
+}
+@media screen and (max-width: 736px) {
+  .header .navigation-link {
+    display: none;
+  }
+  .menu .list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .menu .box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .about .box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .about .box-content .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact .box .content .list {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
+  .footer .box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 431px) {
+  .wrapper .header .container .img {
+    display: none;
+  }
+  .header-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .wrapper .product .container .list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .wrapper .category .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .about .box-img img {
+    width: 400px;
+  }
+}
